@@ -34,6 +34,8 @@ set redrawtime=10000 " Allow more time for loading syntax on large files
 " Key maps
 "--------------------------------------------------------------------------
 
+let mapleader = "\<space>"
+
 " Reselect visual selection after indenting
 vnoremap < <gv
 vnoremap > >gv
@@ -61,7 +63,10 @@ source ~/.config/nvim/plugins/editorconfig.vim
 source ~/.config/nvim/plugins/markdown-preview.vim
 source ~/.config/nvim/plugins/nerdtree.vim
 source ~/.config/nvim/plugins/coc.vim
+source ~/.config/nvim/plugins/quick-scope.vim
 source ~/.config/nvim/plugins/commentary.vim
+source ~/.config/nvim/plugins/fzf-vim.vim
+source ~/.config/nvim/plugins/floaterm.vim
 
 call plug#end()
 doautocmd User PlugLoaded
