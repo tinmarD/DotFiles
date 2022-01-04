@@ -170,4 +170,5 @@ alias "v=xclip -o"
 # mmaction2 base dir 
 export MMACTION2_PATH=/home/tinmar/Bureau/WiiCare/Soft/ActionRec/code/mmaction2
 
-
+# Alis for nvim
+alias "nv=nvim"

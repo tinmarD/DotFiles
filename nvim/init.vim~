@@ -6,11 +6,11 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set hidden
-" set relativenumber
+set relativenumber
 set number
 set termguicolors
 set undofile
-set spell
+" set spell
 set title
 set ignorecase
 set smartcase
@@ -58,6 +58,7 @@ imap jj <esc>
 call plug#begin('~/.config/nvim/plugins')
 
 source ~/.config/nvim/plugins/dracula.vim
+source ~/.config/nvim/plugins/afterglow.vim
 source ~/.config/nvim/plugins/airline.vim
 source ~/.config/nvim/plugins/editorconfig.vim
 source ~/.config/nvim/plugins/markdown-preview.vim
@@ -66,6 +67,11 @@ source ~/.config/nvim/plugins/coc.vim
 source ~/.config/nvim/plugins/quick-scope.vim
 source ~/.config/nvim/plugins/commentary.vim
 source ~/.config/nvim/plugins/fzf-vim.vim
+source ~/.config/nvim/plugins/floaterm.vim
+" source ~/.config/nvim/plugins/fugitive.vim
+" source ~/.config/nvim/plugins/ipythonslime.vim
+source ~/.config/nvim/plugins/tagbar.vim
+source ~/.config/nvim/plugins/dashboard.vim
 
 call plug#end()
 doautocmd User PlugLoaded
